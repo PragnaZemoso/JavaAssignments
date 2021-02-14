@@ -4,7 +4,8 @@ public class Details{
 
     public void validate(String name ,String password, String mobileNumber) throws Exception{
         if(name.isEmpty() || password.isEmpty() || mobileNumber.isEmpty())
-            throw new NullPointerException();
+            throw new NullPointerException(" Null Exception ");
+
         if(!name.matches("[a-zA-Z]*") || name.length()<3)
             throw new InvalidNameException("Name should contain alphabet only - Please enter a valid Name");
         if(password.length()<8)
