@@ -1,13 +1,13 @@
 package Assignment12;
 
 public class Student {
-    private int id;
-    private String name;
-    private int age;
-    private String gender;
-    private String engDepartment;
-    private int yearOfEnrollment;
-    private double percentageTillDate;
+    int id;
+    String name;
+    int age;
+    String gender;
+    String engDepartment;
+    int yearOfEnrollment;
+    double percentageTillDate;
 
     public Student(int id, String name, int age, String gender, String engDepartment, int yearOfEnrollment, double percentageTillDate) {
         this.id = id;
@@ -17,5 +17,10 @@ public class Student {
         this.engDepartment = engDepartment;
         this.yearOfEnrollment = yearOfEnrollment;
         this.percentageTillDate = percentageTillDate;
+    }
+
+    @Override
+    public String toString() {
+        return "[" + id + " , " + name + " , " + age + " , " + gender + " , " + engDepartment + " , " + yearOfEnrollment + " , " + percentageTillDate + "]";
     }
 }

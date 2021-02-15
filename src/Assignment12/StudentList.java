@@ -25,5 +25,4 @@ public class StudentList {
         students.add(new Student(266, "Sanvi Pandey", 17, "Female", "Electric", 2019, 72.4));
         students.add(new Student(277, "Anuj Chettiar", 18, "Male", "Computer Science", 2017, 57.5));
     }
-
 }

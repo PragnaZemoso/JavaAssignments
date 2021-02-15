@@ -1,0 +1,44 @@
+/home/pragna.miryala/.jdks/openjdk-15.0.2/bin/java -javaagent:/home/pragna.miryala/Downloads/ideaIC-2020.3.1/idea-IC-203.6682.168/lib/idea_rt.jar=35377:/home/pragna.miryala/Downloads/ideaIC-2020.3.1/idea-IC-203.6682.168/bin -Dfile.encoding=UTF-8 -classpath /home/pragna.miryala/IdeaProjects/JavaClassroomAssignments/out/production/JavaClassroomAssignments Assignment12.MainClass
+Total Students: 17
+--------- 1. Names of all departments(distinct) in the college --------
+No. of departments(distinct): 8
+[Computer Science, Mechanical, Electronic, Electrical, Textile, Security, Chemical, Electric]
+--------- 2. Names of all students who have enrolled after 2018 --------
+No. of students who have enrolled after 2018 : 2
+[Jasna Kaur, Sanvi Pandey]
+--------- 3. Details of all Male students in the Computer Science department ---------
+[188 , Wang Liu , 20 , Male , Computer Science , 2015 , 80.0]
+[277 , Anuj Chettiar , 18 , Male , Computer Science , 2017 , 57.5]
+--------- 4. Number of male and female students ---------
+maleStudentsCount: 11
+femaleStudentsCount: 6
+--------- 5. Average age of male and female students ---------
+averageAgeOfMale: 17.727272727272727
+averageAgeOfFemale: 17.833333333333332
+--------- 6. Get the details of Topper (highest student having highest percentage) ---------
+[244 , Nicolus Den , 16 , Male , Electronic , 2017 , 95.8]
+--------- 7. Count the number of students in each department ---------
+Number of students in department 'Chemical' are: 1
+Number of students in department 'Textile' are: 2
+Number of students in department 'Mechanical' are: 1
+Number of students in department 'Computer Science' are: 5
+Number of students in department 'Electric' are: 1
+Number of students in department 'Electronic' are: 4
+Number of students in department 'Electrical' are: 1
+Number of students in department 'Security' are: 2
+--------- 8. Average percentage achieved in each department ---------
+Average percentage in department 'Chemical' is: 70.0
+Average percentage in department 'Textile' is: 65.2
+Average percentage in department 'Mechanical' is: 50.2
+Average percentage in department 'Computer Science' is: 67.78
+Average percentage in department 'Electric' is: 72.4
+Average percentage in department 'Electronic' is: 89.375
+Average percentage in department 'Electrical' is: 80.0
+Average percentage in department 'Security' is: 76.0
+--------- 9. Details of youngest Male student in the Electronic department ---------
+[244 , Nicolus Den , 16 , Male , Electronic , 2017 , 95.8]
+--------- 10. Number of male and female students in 'Computer Science' department ---------
+maleStudentsCountInDept: 2
+femaleStudentsCountInDept: 3
+
+Process finished with exit code 0
